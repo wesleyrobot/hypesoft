@@ -1,0 +1,75 @@
+{
+  "realm": "hypesoft",
+  "displayName": "Hypesoft",
+  "enabled": true,
+  "sslRequired": "none",
+  "registrationAllowed": false,
+  "loginWithEmailAllowed": true,
+  "duplicateEmailsAllowed": false,
+  "resetPasswordAllowed": true,
+  "editUsernameAllowed": false,
+  "clients": [
+    {
+      "clientId": "hypesoft-frontend",
+      "enabled": true,
+      "publicClient": true,
+      "redirectUris": [
+        "http://localhost:3000/*",
+        "http://localhost/*"
+      ],
+      "webOrigins": [
+        "http://localhost:3000",
+        "http://localhost"
+      ],
+      "standardFlowEnabled": true,
+      "directAccessGrantsEnabled": true,
+      "protocol": "openid-connect"
+    },
+    {
+      "clientId": "hypesoft-api",
+      "enabled": true,
+      "publicClient": false,
+      "bearerOnly": true,
+      "protocol": "openid-connect"
+    }
+  ],
+  "roles": {
+    "realm": [
+      { "name": "admin", "description": "Administrator role" },
+      { "name": "manager", "description": "Manager role" },
+      { "name": "user", "description": "Regular user role" }
+    ]
+  },
+  "users": [
+    {
+      "username": "admin",
+      "email": "admin@hypesoft.com",
+      "firstName": "Admin",
+      "lastName": "Hypesoft",
+      "enabled": true,
+      "credentials": [
+        {
+          "type": "password",
+          "value": "admin123",
+          "temporary": false
+        }
+      ],
+      "realmRoles": ["admin", "user"]
+    },
+    {
+      "username": "manager",
+      "email": "manager@hypesoft.com",
+      "firstName": "Manager",
+      "lastName": "Hypesoft",
+      "enabled": true,
+      "credentials": [
+        {
+          "type": "password",
+          "value": "manager123",
+          "temporary": false
+        }
+      ],
+      "realmRoles": ["manager", "user"]
+    }
+  ]
+}
