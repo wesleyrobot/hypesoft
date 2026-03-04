@@ -4,9 +4,9 @@ Sistema completo de gestão de produtos desenvolvido como desafio técnico da Hy
 
 ## Demo
 
-[Clique aqui para assistir ao vídeo de apresentação](demo.mp4)
-
-> Para assistir diretamente no GitHub, acesse o arquivo [demo.mp4](demo.mp4) no repositório — o GitHub abrirá o player de vídeo automaticamente.
+<video src="https://github.com/wesleyrobot/hypesoft/raw/master/demo.mp4" controls width="100%">
+  <a href="demo.mp4">Assistir vídeo de apresentação</a>
+</video>
 
 ## Stack Tecnológica
 
