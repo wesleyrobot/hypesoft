@@ -4,9 +4,7 @@ Sistema completo de gestão de produtos desenvolvido como desafio técnico da Hy
 
 ## Demo
 
-<video src="https://github.com/wesleyrobot/hypesoft/raw/master/demo.mp4" controls width="100%">
-  <a href="demo.mp4">Assistir vídeo de apresentação</a>
-</video>
+https://github.com/user-attachments/assets/4bd56039-53e2-471d-870f-241852cfbcea
 
 ## Stack Tecnológica
 
