@@ -2,6 +2,12 @@
 
 Sistema completo de gestão de produtos desenvolvido como desafio técnico da Hypesoft.
 
+## Demo
+
+[Clique aqui para assistir ao vídeo de apresentação](demo.mp4)
+
+> Para assistir diretamente no GitHub, acesse o arquivo [demo.mp4](demo.mp4) no repositório — o GitHub abrirá o player de vídeo automaticamente.
+
 ## Stack Tecnológica
 
 ### Frontend
